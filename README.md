@@ -14,23 +14,6 @@ The raw data was returned in **JSON format** and processed using **Python with P
 
 > ✅ Tools used: `brightdata`, `requests`, `pandas`, `json_normalize`
 
-### 🛠 Example Workflow
-
-```python
-import pandas as pd
-import json
-
-# Load raw JSON from Bright Data
-with open("espn_data.json") as f:
-    data = json.load(f)
-
-# Normalize player stats
-df_players = pd.json_normalize(data, record_path=["players"])
-
-# Save to CSV for Power BI
-df_players.to_csv("icc_t20_players.csv", index=False)
-
-
 ## 📸 Dashboard Preview
 
 ![ICC T20 Power BI Dashboard](./t20ICCMenSnip.png)
