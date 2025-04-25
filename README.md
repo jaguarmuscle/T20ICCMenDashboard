@@ -44,4 +44,8 @@ This Power BI dashboard presents a deep dive into player performance during the 
 
 ## 📁 Project Structure
 
-
+├── t20ICCMenSnip.png      # Dashboard screenshot
+|
+├── ICC_T20_WorldCup.pbix  # Power BI file (optional for repo)
+|
+└── README.md              # Project description
